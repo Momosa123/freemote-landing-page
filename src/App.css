@@ -2,7 +2,7 @@
 
 /* General styling */
 :root {
-  --primary-color: #133588;
+  --primary-color: #000;
   --secondary-color: #806c6c;
 }
 body{
@@ -53,6 +53,7 @@ h2{
 }
 
 .navigation li{
+  font-weight: 700;
   font-size: 0.75rem;
 list-style-type: none;
 text-transform: uppercase;
@@ -64,7 +65,7 @@ margin-right: 20px;
   text-decoration: none;
 }
 .hero-heading{
-  
+  font-weight: 800;
   position:absolute;
   top: calc(50% - 20px);
   transform: translate(50%,-50%);
