@@ -10,10 +10,10 @@ export default function HeroSection (){
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#">Our services</a>
+          <a href="#services">Our services</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#footer">Contact</a>
         </li>
       </ul>
     </nav>
