@@ -12,10 +12,13 @@ const imageElements = imageJson.map(
 )
   return(
     <div id="services" className="services-section" >
+      
       <h2 className="services-heading">Our services</h2>
-      <div className="services-container">
-      {imageElements}
+      <div className="service-container">
+        {imageElements}
       </div>
-    </div>
+      
+      </div>
+   
   )
 }

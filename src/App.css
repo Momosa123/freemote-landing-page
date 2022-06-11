@@ -21,6 +21,7 @@ body{
 
 h2{
   margin-top: 0;
+  text-align: center;
   font-size: 1.75rem;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -43,19 +44,19 @@ h2{
 }
 .navigation ul{
  
-  max-width: 25%;
+
   padding-left: 0;
   
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .navigation li{
   font-size: 0.75rem;
 list-style-type: none;
 text-transform: uppercase;
-margin-right: 5px;
+margin-right: 20px;
 }
 
 .navigation a{
@@ -73,19 +74,22 @@ margin-right: 5px;
 
 /* Service section styling */
 .services-section{
-  padding: 3rem  0 4rem;
+  padding: 4rem  0;
 }
-.services-container{
-  width: 90%;
+.service-container{
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-AROUND;
   text-align: center;
+  flex-wrap: wrap;
 }
 
-.services-container img{
-  text-align: start;
-  width: 70%;
+.service-block{
+  width: 30%;
+}
+.service-container img{
+  width: 100%;
+ 
 }
 .services-heading{
   margin-bottom: 2rem;
@@ -144,6 +148,7 @@ margin-right: 5px;
   font-weight: bold;
 }
 .secondaryTitle{
+  text-align: center;
   color: grey;
 }
 
@@ -232,4 +237,17 @@ margin-right: 5px;
 .endfooter p{
   margin: 0;
   padding: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .service-container{
+  
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .service-block{
+    width: 70%;
+    margin-bottom: 2rem;
+  }
 }

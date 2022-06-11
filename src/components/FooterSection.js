@@ -6,7 +6,7 @@ export default function FooterSection (){
     <div id="footer" className="wrapper">
 
     <form className="form">
-      <div className="pageTitle title">Contact Us </div>
+      <h2 className="pageTitle title">Contact Us </h2>
 
       <div className="secondaryTitle title">Please fill this form to contact us.</div>
 
