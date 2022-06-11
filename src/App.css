@@ -1,38 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+/* General styling */
+:root {
+  --primary-color: #133588;
+  --secondary-color: #806c6c;
+}
+body{
+  margin: 0;
+  color: #fff;
+}
+*{
+  box-sizing: border-box;
+}
+
+
 .App {
-  text-align: center;
+  font-family: Poppins;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/* Hero Section styling */
+.hero-section{
+  margin-bottom: 4rem;
+  padding-top: 20px;
+  background-image: url('https://assets.codepen.io/6060109/agency-hero-image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.7);
+  width: 100vw;
+  height: 50vh;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navigation ul{
+  width: 25%;
+  padding-left: 0;
+  
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.navigation li{
+  font-size: 0.75rem;
+list-style-type: none;
+text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navigation a{
+  color: #fff;
+  text-decoration: none;
+}
+.hero-heading{
+  
+  position:absolute;
+  top: calc(50% - 20px);
+  transform: translate(50%,-50%);
+  right: 50%;
+  
+}
+
+/* Service section styling */
+
+.services-container{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-container img{
+  text-align: start;
+  width: 80%;
+}
+.services-heading{
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.services{
+
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--secondary-color);
 }
