@@ -28,19 +28,24 @@ h2{
 /* Hero Section styling */
 .hero-section{
 
-  padding-top: 20px;
+  
   background-image: url('https://assets.codepen.io/6060109/agency-hero-image.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: rgba(0,0,0,0.7);
-  width: 100vw;
+  max-width: 100vw;
   height: 50vh;
   position: relative;
 }
 
+.navigation{
+  padding: 20px;
+  background-color: var(--primary-color);;
+}
 .navigation ul{
-  width: 25%;
+ 
+  max-width: 25%;
   padding-left: 0;
   
   margin: 0 auto;
@@ -100,21 +105,12 @@ text-transform: uppercase;
 #title-Tag-Line {
   font-size: 20px;
 }
-/* .card-item__bg{
-  width: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  display: block;
-  position: relative;
-  margin: 30px auto;
-  transform: translate(0px, 50px);
-  z-index: 5;
-} */
+
 
 /* form animation starts */
+
 .form {
+ 
   background: var(--primary-color);
   box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
   border-radius: 5px;
@@ -222,3 +218,19 @@ text-transform: uppercase;
     transform: translate(0, 8px);
   }
 } 
+
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.endfooter{
+  margin-top: 650px;
+  background-color: var(--primary-color);
+}
+
+.endfooter p{
+  margin: 0;
+  padding: 2rem;
+}

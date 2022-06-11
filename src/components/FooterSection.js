@@ -4,6 +4,7 @@ export default function FooterSection (){
 
   return(
     <div id="footer" className="wrapper">
+
     <form className="form">
       <div className="pageTitle title">Contact Us </div>
 
@@ -20,6 +21,8 @@ export default function FooterSection (){
       <label style={{color: "grey"}} for="terms"> I Accept the <span style={{color: "#fff"}}>Terms of Use</span> & <span style={{color: "#fff"}}>Privacy Policy</span>.</label><br/>
       <button className="submit formEntry" onclick="thanks()">Submit</button>
     </form>
+
+   
   </div>
   )
 }
