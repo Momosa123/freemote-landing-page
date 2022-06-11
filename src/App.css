@@ -27,8 +27,6 @@ h2{
 }
 /* Hero Section styling */
 .hero-section{
-
-  
   background-image: url('https://assets.codepen.io/6060109/agency-hero-image.png');
   background-size: cover;
   background-position: center;
@@ -57,6 +55,7 @@ h2{
   font-size: 0.75rem;
 list-style-type: none;
 text-transform: uppercase;
+margin-right: 5px;
 }
 
 .navigation a{
