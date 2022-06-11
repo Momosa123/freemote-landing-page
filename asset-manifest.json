@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/freemote-landing-page/static/css/main.f9422d60.css",
+    "main.js": "/freemote-landing-page/static/js/main.feb27b7b.js",
+    "index.html": "/freemote-landing-page/index.html",
+    "main.f9422d60.css.map": "/freemote-landing-page/static/css/main.f9422d60.css.map",
+    "main.feb27b7b.js.map": "/freemote-landing-page/static/js/main.feb27b7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9422d60.css",
+    "static/js/main.feb27b7b.js"
+  ]
+}
