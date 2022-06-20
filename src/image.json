@@ -1,15 +1,21 @@
 [
   {
+    "id":"1",
     "url":"https://assets.codepen.io/6060109/agency-service-1.png",
-    "title":"web design"
+    "title":"Web Design",
+    "desc" : "Powerful, flexible, responsive, mobile friendly, affordable, launch in record time."
   },
   {
+    "id":"2",
     "url":"https://assets.codepen.io/6060109/agency-service-2.png",
-    "title":"Ecommerce"
+    "title":"UI/UX Design",
+    "desc": "UI/UX design with personalization, simplicity, convenience, minimalism, engagement and accessability."
   },
   {
+    "id":"3",
     "url":"https://assets.codepen.io/6060109/agency-service-3.png",
-    "title":"Automation"
+    "title":"Mobile Apps Development",
+    "desc": "we empower end to end mobile solutions for hybrid/cross platforms with scalabiltiy infrastructure."
   }
 
 ]

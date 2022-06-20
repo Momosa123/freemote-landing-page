@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
 import Terms from './components/Terms'
 import Header from './components/Header';
+// import data from "./data"
 
 import './App.css';
 
