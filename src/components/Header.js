@@ -2,8 +2,9 @@ import React from "react";
 
 export default function Header(){
   return(
-    <div>
+    <div className="container header__container">
     <nav className="navigation">
+      <h1>LOGO</h1>
       <ul>
         <li>
           <a href="#hero">Home</a>

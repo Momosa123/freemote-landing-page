@@ -1,0 +1,24 @@
+[
+       {
+        "id": "1", 
+        "name": "Web Development",
+        "Description": "Powerful, flexible, responsive, mobile friendly, affordable, launch in record time. Our web development solutions handle all of the above. Trusted for over 2 years, we are creating a new ay to build fantastic and relaibale product that will prodcuce tangible results for you and top-end solutions for your users.",
+        "action": "Let's Discuss Your Ideas"
+    
+    },
+    {
+        "id": "2", 
+        "name": "UI/UX",
+        "Description": "Design is no longer about the wow factor. UI/UX design is about providing personalization, simplicity, convenience, minimalism, engagement and accessability. We will create your brand identify with an eminently crafted visual strategy to maximize all opportunities for your business growth",
+        "action": "Let's Discuss Your Ideas"
+    
+    },
+    {
+        "id": "3", 
+        "name": "Mobile Apps Development",
+        "Description": "As proven apps developers, we empower end to end mobile solutions for hybrid/cross platforms, regarding your goals, budget, and timelines. Our in-depth expertise in narrow niches allows us to see and use the opportunities others are missing. As a result, you get a unique mobile app tha will take off-right at your fintergits",
+        "action": "Let's Discuss Your Ideas"
+    
+    }
+]
+

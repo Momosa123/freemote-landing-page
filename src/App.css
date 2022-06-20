@@ -11,11 +11,13 @@ body{
 }
 *{
   box-sizing: border-box;
+
 }
 
 
 .App {
   font-family: Poppins;
+
  
 }
 
@@ -38,9 +40,14 @@ h2{
   position: relative;
 }
 
+
 .navigation{
   padding: 20px;
-  background-color: var(--primary-color);;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 .navigation ul{
  
@@ -86,6 +93,9 @@ margin-right: 20px;
 
 .service-block{
   width: 30%;
+}
+.service-block p{
+  color: #333;
 }
 .service-container img{
   width: 100%;
